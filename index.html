@@ -1,36 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
 
-	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Juanito Travel</title>
+    <title>Juanito Travel</title>
 
-	<link rel="icon" href="img/icono.jpg" type="image/x-icon">
-	
-	<!--
-	  -- ─── PLUGINS DE CSS ─────────────────────────────────────────────────────────────
+    <link rel="icon" href="img/icono.jpg" type="image/x-icon" />
+
+    <!--
+	  -- ──────────────────────────────────────────────────────────────────── I ──────────
+	  --   :::::: P L U G I N S   D E   C S S : :  :   :    :     :        :          :
+	  -- ──────────────────────────────────────────────────────────────────────────────
 	  -->
-	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-	<!--
-	  -- ─── PLUGINS DE JS ──────────────────────────────────────────────────────────────
+    <link
+      rel="stylesheet"
+      href="Https://cdn.bootcss.com/font-awesome/5.6.0/css/all.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--
+	  -- ────────────────────────────────────────────────────────────────── I ──────────
+	  --   :::::: P L U G I N S   D E   J S : :  :   :    :     :        :          :
+	  -- ────────────────────────────────────────────────────────────────────────────
 	  -->
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-	<script src="js/script.js"></script>
-</body>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!--
+	  -- ──────────────────────────────────────────────────────── I ──────────
+	  --   :::::: C A B E C E R A : :  :   :    :     :        :          :
+	  -- ──────────────────────────────────────────────────────────────────
+	  -->
+    <header class="container-fluid bg-primary">
+      <div class="container bg-danger">
+        <div class="row">
+          <!-- LOGO -->
+          <div class="col-7 bg-success">
+            <a href="index.html">
+              <img
+                src="img/logotipo-negativo.png"
+                alt="logo de Juanito Travel"
+                class="img-fluid logotipo"
+              />
+            </a>
+          </div>
+
+          <!-- REDES SOCIALES -->
+          <div class="col-4 bg-warning redes">
+            <ul>
+              <li>
+                <a href="#" target="_blank">
+					<i class="fab fa-facebook-f lead float-left rounded-circle text-white mr-1"></i>
+				</a>
+			  </li>
+			  
+              <li>
+                <a href="#" target="_blank">
+					<i class="fab fa-instagram lead float-left rounded-circle text-white mr-1"></i>
+				</a>
+			  </li>
+			  
+              <li>
+                <a href="#" target="_blank">
+					<i class="fab fa-twitter lead float-left rounded-circle text-white mr-1"></i>
+				</a>
+			  </li>
+			  
+              <li>
+                <a href="#" target="_blank">
+					<i class="fab fa-youtube lead float-left rounded-circle text-white mr-1"></i>
+				</a>
+			  </li>
+			  
+              <li>
+                <a href="#" target="_blank">
+					<i class="fab fa-snapchat-ghost lead float-left rounded-circle text-white mr-1"></i>
+				</a>
+			  </li>
+			  
+            </ul>
+          </div>
+
+          <!-- BUSCADOR Y BOTÓN MENU -->
+          <div class="col-1 bg-danger">
+			<!-- BUSCADOR -->
+			<div class="float-left">
+				<i class="fas fa-search"></i>
+			</div>
+			<!-- BOTÓN MENU -->
+			<div class="float-left">
+				<i class="fas fa-bars"></i>
+			</div>
+		  </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
