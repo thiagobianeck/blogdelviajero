@@ -1,0 +1,37 @@
+/*
+ * ─── ESCRITORIO (XL REVISAMOS EN 1366PX EN ADELANTE) ──────────────────────────────
+ */
+
+
+/*
+ * ─── TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ──────────────────────────────
+ */
+
+@media (Max-width: 1199px) and (min-width: 992px) {
+
+}
+
+
+/*
+ * ─── TABLET VERTICAL (MD REVISAMOS EN 768PX) ──────────────────────────────
+ */
+
+@media (Max-width: 991px) and (min-width: 768px) {
+
+}
+
+
+/*
+ * ─── MÓVIL HORIZONTAL (SM REVISAMOS EN 576PX) ──────────────────────────────
+ */
+@media (Max-width: 767px) and (min-width: 576px) {
+    
+}
+
+/*
+ * ─── MÓVIL VERTICAL (REVISAMOS EN 320PX) ──────────────────────────────
+ */
+@media (Max-width: 575px) {
+    
+}
+
