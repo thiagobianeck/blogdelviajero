@@ -85,6 +85,10 @@ header .redes ul li i {
  */
 
 @media (max-width: 991px) and (min-width: 768px) {
+  
+  header .logotipo {
+    width: 55%;
+  }
 }
 
 /*
@@ -93,6 +97,11 @@ header .redes ul li i {
  * ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
  */
 @media (max-width: 767px) and (min-width: 576px) {
+
+  header .logotipo {
+    width: 65%;
+  }
+
 }
 
 /*
@@ -101,4 +110,9 @@ header .redes ul li i {
  * ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
  */
 @media (max-width: 575px) {
+
+  header .logotipo {
+    width: 100%;
+  }
+
 }
