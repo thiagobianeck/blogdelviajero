@@ -33,11 +33,11 @@ header {
   background: rgba(0,0,0,.5);
 }
 
-header .logotipo {
+.logotipo {
   width: 45%;
 }
 
-header .redes ul li i {
+.redes ul li i {
     width: 35px;
     line-height: 35px;
     text-align: center;
@@ -66,6 +66,13 @@ header .redes ul li i {
 
 .fa-bars {
   font-size: 35px;
+}
+
+.redesMovil {
+  position: fixed;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 
