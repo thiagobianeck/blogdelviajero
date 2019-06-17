@@ -15,21 +15,14 @@
 	  -- ──────────────────────────────────────────────────────────────────────────────
 	  -->
     <!-- Latest compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.bootcss.com/font-awesome/5.6.0/css/all.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans&display=swap"
-    />
-      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans&display=swap"/>
+
+    <!-- JDSlider -->
+    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -47,6 +40,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- JDSlider -->
+    <script src="js/plugins/jquery.jdSlider-latest.js"></script>
   </head>
   <body>
     <!--
@@ -119,16 +115,7 @@
       </div>
     </header>
 
-    <!-- BUSCADOR PARA MÓVIL -->
-
-    <div class="container d-block d-md-none py-3">
-      <div class="input-group input-group-sm">
-        <input type="text" class="form-control" placeholder="Buscar">
-        <div class="input-group-append">
-          <span class="input-group-text"><i class="fas fa-search"></i></span>
-        </div>
-      </div>
-    </div>
+    
 
     <!-- REDES SOCIALES PARA MÓVIL-->
     <div class="d-block d-md-none redes redesMovil p-0 bg-white w-100 pt-2">
@@ -164,6 +151,38 @@
            </li>
     
         </ul>
+      </div>
+
+      <!-- BANNER -->
+      <div class="container-fluid p-0">
+        <section class="jd-slider fade-slider">
+          <div class="slide-inner">
+            <ul class="slide-area">
+              <li><img class="img-fluid" src="img/banner01.jpg" alt="Juanito Travel en el mar"></li>
+              <li><img class="img-fluid" src="img/banner02.jpg" alt="Juanito Travel en el mar"></li>
+              <li><img class="img-fluid" src="img/banner03.jpg" alt="Juanito Travel en el mar"></li>
+              <li><img class="img-fluid" src="img/banner04.jpg" alt="Juanito Travel en el mar"></li>
+            </ul>
+          </div>
+          <div class="controller d-none">
+            <a class="auto" href="#">
+              <i class="fas fa-play fa-xs"></i>
+              <i class="fas fa-pause fa-xs"></i>
+            </a>
+            <div class="indicate-area"></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- BUSCADOR PARA MÓVIL -->
+
+      <div class="container d-block d-md-none py-3">
+        <div class="input-group input-group-sm">
+          <input type="text" class="form-control" placeholder="Buscar">
+          <div class="input-group-append">
+            <span class="input-group-text"><i class="fas fa-search"></i></span>
+          </div>
+        </div>
       </div>
 
     <script src="js/script.js"></script>

@@ -31,6 +31,10 @@ a:active {
 
 header {
   background: rgba(0,0,0,.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 .logotipo {
@@ -109,6 +113,10 @@ header {
     width: 65%;
   }
 
+  .fade-slider {
+    height: 72px;
+  }
+
 }
 
 /*
@@ -120,6 +128,10 @@ header {
 
   header .logotipo {
     width: 100%;
+  }
+
+  .fade-slider {
+    height: 54px;
   }
 
 }
