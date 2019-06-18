@@ -72,11 +72,30 @@ header {
   font-size: 35px;
 }
 
+.fa-search, .fa-bars {
+  color: white;
+}
+
 .redesMovil {
   position: fixed;
   bottom: -10px;
   left: 50%;
   transform: translate(-50%);
+}
+/*
+ * ──────────────────────────────────────────────────── II ──────────
+ *   :::::: B A N N E R : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+ */
+.fade-slider {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.bannerEstatico {
+  background: rgba(0,0,0,0);
 }
 
 
