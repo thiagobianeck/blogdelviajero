@@ -77,10 +77,11 @@ header {
 }
 
 .redesMovil {
-  position: fixed;
-  bottom: -10px;
-  left: 50%;
-  transform: translate(-50%);
+    position: fixed;
+    bottom: -10px;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%);
 }
 /*
  * ──────────────────────────────────────────────────── II ──────────
@@ -127,6 +128,76 @@ MENU
     margin-top: 10%;
 }
 
+/*=====================================
+GRID CATEGORIAS
+=====================================*/
+.grid figure {
+    position: relative;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+}
+
+.grid .columna1 {
+    width: 40%;
+}
+
+.grid .photo1,
+.grid .photo2,
+.grid .photo3,
+.grid .photo4,
+.grid .photo5,
+.grid .photo6 {
+    background-size: cover;
+    background-position: left;
+}
+
+.grid .photo1,
+.grid .photo5 {
+    height: 400px;
+}
+
+.grid .photo2,
+.grid .photo3,
+.grid .photo4 {
+    height: 300px;
+}
+
+.grid .photo1 {
+    background: url(../img/suramerica.jpg);
+}
+
+.grid .photo2 {
+    background: url(../img/africa.jpg);
+}
+
+.grid .photo3 {
+    background: url(../img/centroamerica.jpg);
+}
+
+.grid .photo4 {
+    background: url(../img/europa.jpg);
+}
+
+.grid .photo5 {
+    background: url(../img/norteamerica.jpg);
+}
+
+.grid .photo6 {
+    background: url(../img/asia.jpg);
+}
+
+.grid figure p {
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
 /*
  * ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── I ──────────
  *   :::::: T A B L E T   H O R I Z O N T A L   -   L G   R E V I S A M O S   E N   1 0 2 4 P X : :  :   :    :     :        :          :
@@ -161,6 +232,21 @@ MENU
         right: 15% !important;
         top: 70px !important;
     }
+
+    .grid figure p {
+        font-size: 18px;
+    }
+
+    .grid .photo1,
+    .grid .photo5 {
+        height: 300px;
+    }
+
+    .grid .photo2,
+    .grid .photo3,
+    .grid .photo4 {
+        height: 200px;
+    }
 }
 
 /*
@@ -185,6 +271,23 @@ MENU
     .btnClose {
         left: 15% !important;
         top: 50px !important;
+    }
+
+    .grid .columna1 {
+        width: 50%;
+    }
+
+    .grid .photo1,
+    .grid .photo2,
+    .grid .photo3,
+    .grid .photo4,
+    .grid .photo5,
+    .grid .photo6 {
+        height: 200px;
+    }
+
+    .grid figure p {
+        font-size: 16px;
     }
 
 }
@@ -213,6 +316,23 @@ MENU
     .btnClose {
         left: 10% !important;
         top: 20px !important;
+    }
+
+    .grid .columna1 {
+        width: 50%;
+    }
+
+    .grid .photo1,
+    .grid .photo2,
+    .grid .photo3,
+    .grid .photo4,
+    .grid .photo5,
+    .grid .photo6 {
+        height: 120px;
+    }
+
+    .grid figure p {
+        font-size: 14px;
     }
 
 }
