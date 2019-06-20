@@ -28,3 +28,14 @@ $(window).scroll(function() {
         $('.fa-search, .fa-bars').css({'color':'white'});
     }
 });
+
+/*=====================================
+MENU
+=====================================*/
+$('.fa-bars').click(function () {
+    $('.menu').fadeIn('fast');
+});
+
+$('.btnClose').click(function () {
+    $('.menu').fadeOut('fast');
+});
