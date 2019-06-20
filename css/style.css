@@ -137,6 +137,8 @@ GRID CATEGORIAS
     border-bottom: 0px;
     border-left: 8px solid white;
     border-right: 8px solid white;
+    cursor: pointer;
+    transition: 1s all;
 }
 
 .grid .columna1 {
@@ -149,7 +151,7 @@ GRID CATEGORIAS
 .grid .photo4,
 .grid .photo5,
 .grid .photo6 {
-    background-size: cover;
+    background-size: cover !important;
     background-position: left;
 }
 
@@ -198,6 +200,11 @@ GRID CATEGORIAS
     font-weight: 100;
     font-size: 20px;
 }
+
+.grid figure p:hover {
+    background: rgba(255,57,190,.7);
+}
+
 /*
  * ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── I ──────────
  *   :::::: T A B L E T   H O R I Z O N T A L   -   L G   R E V I S A M O S   E N   1 0 2 4 P X : :  :   :    :     :        :          :
