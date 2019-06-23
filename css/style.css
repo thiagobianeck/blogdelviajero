@@ -279,6 +279,10 @@ CONTENIDO
     .grid .photo4 {
         height: 200px;
     }
+
+    .fecha {
+        top: -488px;
+    }
 }
 
 /*
@@ -320,6 +324,10 @@ CONTENIDO
 
     .grid figure p {
         font-size: 16px;
+    }
+
+    .fecha {
+        top: -378px;
     }
 
 }
@@ -365,6 +373,12 @@ CONTENIDO
 
     .grid figure p {
         font-size: 14px;
+    }
+
+    .fecha {
+        top: -227px;
+        font-size: 12px;
+        height: 35px;
     }
 
 }
