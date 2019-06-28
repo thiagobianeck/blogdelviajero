@@ -208,6 +208,9 @@ GRID CATEGORIAS
 /*=====================================
 GRIDFOOTER CATEGORIAS
 =====================================*/
+footer {
+  background: black;
+}
 
 .gridFooter figure {
     position: relative;
@@ -365,6 +368,14 @@ CONTENIDO
 
     .fecha {
         top: -340px;
+    }
+
+  .gridFooter figure {
+    border: 2px solid white;
+  }
+
+    .gridFooter figure p{
+        font-size: 12px;
     }
 }
 
