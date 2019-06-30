@@ -99,13 +99,25 @@ CABECERA
           <div class="col-2 col-sm-1 col-md-2 col-lg-2 d-flex justify-content-end pt-2 mt-1">
             <!-- BUSCADOR -->
             <div class="d-none d-md-block pr-4 pr-lg-5 mt-1">
-              <i class="fas fa-search lead"></i>
+              <i class="fas fa-search lead" data-toggle="collapse" data-target="#buscador"></i>
             </div>
+
             <!-- BOTÓN MENU -->
             <div class="m-0 mt-sm-1 mt-md-0 pr-0 pr-sm-2 pr-lg-3">
               <i class="fas fa-bars"></i>
             </div>
-		      </div>
+          </div>
+          <!-- INPUT BUSCADOR -->
+          <div id="buscador" class="collapse col-12">
+            <div class="input-group float-right w-50 pl-xl-5 pb-3">
+              <input type="text" class="form-control" placeholder="Buscar">
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
