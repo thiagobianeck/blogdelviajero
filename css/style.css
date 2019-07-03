@@ -365,8 +365,8 @@ PRELOAD
     top: 0;
     left: 0;
     height: 2px;
-    width: 50%;
-    background: #999;
+    width: 0%;
+    background: #fff;
 }
 
 #estadoCarga {
