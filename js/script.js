@@ -111,9 +111,15 @@ totalObjetos.forEach((item, index) => {
     }
 
     for (var i = 0; i < item.length; i++) {
+        preload(i, item);
+    }
+});
+
+function preload(i, item) {
+    setTimeout(() => {
         $(item[i]).ready(() => {
             numCarga++;
-            incremento = Math.ceil(numCarga * valorPorcentaje);
+            incremento = Math.floor(numCarga * valorPorcentaje);
 
             $('#porcentajeCarga').html(`${incremento}%`);
             $('#rellenoCarga').css({width:`${incremento}%`});
@@ -123,5 +129,7 @@ totalObjetos.forEach((item, index) => {
                 $('body').delay(350).css({overflowY: "scroll"});
             }
         });
-    }
-});
+    }, i * 100);
+}
+
+
