@@ -52,6 +52,11 @@ $('.grid figure').mouseout(function () {
     $(this).css({'background-position':'left top'});
 });
 
+$('.grid figure, .gridFooter figure').click(function () {
+    var vinculo = $(this).attr('vinculo');
+    window.location = vinculo;
+});
+
 /*=====================================
 PAGINACIÓN
 =====================================*/
