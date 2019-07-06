@@ -301,6 +301,30 @@ footer {
 }
 
 /*=====================================
+BREADCRUMB
+=====================================*/
+
+.breadcrumb-item+.breadcrumb-item::before {
+    position: relative;
+    background: url(../img/separador.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: url(../img/espacio.png);
+    width: 60px;
+    left: -10px;
+    line-height: 50px;
+}
+
+.breadcrumb-item.inicio {
+    position: relative;
+    top: 13px;
+}
+
+
+/*=====================================
 CONTENIDO
 =====================================*/
 
@@ -471,6 +495,8 @@ PRELOAD
         height: 200px;
     }
 
+
+
     .fecha {
         top: -340px;
     }
@@ -529,6 +555,20 @@ PRELOAD
         top: -378px;
     }
 
+    /*=====================================
+    BREADCRUMB
+    =====================================*/
+
+    .breadcrumb-item+.breadcrumb-item::before {
+
+        width: 40px;
+        background-size: contain;
+    }
+
+    .breadcrumb-item.inicio, .breadcrumb-item.active  {
+        font-size: 13px;
+    }
+
 }
 
 /*
@@ -578,6 +618,20 @@ PRELOAD
         top: -227px;
         font-size: 12px;
         height: 35px;
+    }
+
+    /*=====================================
+    BREADCRUMB
+    =====================================*/
+
+    .breadcrumb-item+.breadcrumb-item::before {
+
+        width: 40px;
+        background-size: contain;
+    }
+
+    .breadcrumb-item.inicio, .breadcrumb-item.active  {
+        font-size: 13px;
     }
 
 }
